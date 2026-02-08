@@ -292,7 +292,7 @@
 		<include name="eu" displayName="eu" />
 		<include name="us" displayName="us" />
 		<include name="jp" displayName="jp" />
-		<include name="zh" displayName="zh (中文)" />
+		<include name="zh" displayName="zh (中国)" />
 	
 	</subset>
 
@@ -315,8 +315,15 @@
 	>
 	
 		<include name="${v.themeVersion}" />
+	
+	</subset>
 
-		<include name="修改一下~" />
+	<subset name="debugInfo"
+	
+		displayName="Debug Info"
+		appliesTo="我是副标题"
+		
+	>
 
 		<include name="lang: ${lang}" />
 	
