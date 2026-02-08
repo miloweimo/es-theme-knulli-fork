@@ -31,7 +31,7 @@
 		<subset.themeColors>colorset</subset.themeColors>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
-		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
+		<subset.splashscreen.colorset>lang-en auto (from colorset)</subset.splashscreen.colorset>
 
 		<subset.helpIcons>help buttons</subset.helpIcons>
 
