@@ -6,8 +6,6 @@
 
 	<include>./_inc/variables/lang-default.xml</include>
 	<include>./_inc/variables/lang-${lang}.xml</include>
-	<include lang="en">./_inc/variables/lang-en.xml</include>
-	<include lang="zh">./_inc/variables/lang-zh.xml</include>
 
     <variables>
 		

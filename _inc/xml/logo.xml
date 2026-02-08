@@ -60,6 +60,18 @@
 			
 		</image>
 
+		<image name="logo"
+		
+			ifSubset="systemRegion:zh"
+			
+		>
+		
+			<path>./../../_inc/logos/${system.theme}/logo.png</path>
+			<path>./../../_inc/logos/${system.theme}/logo-${lang}.png</path>
+			<path>./../../_inc/logos/${system.theme}/zh/logo.png</path>
+			
+		</image>
+
 	</view>
 	
 	<view name="system">
