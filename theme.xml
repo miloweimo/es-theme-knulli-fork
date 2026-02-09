@@ -238,10 +238,14 @@
 		
 	>
 
+		<include name="0"/>	
+		<include name="1"/>	
 		<include name="2"/>	
 		<include name="5"/>
 		<include name="8"/>
-		<include name="15"/>
+		<include name="13"/>
+		<include name="21"/>
+		<include name="34"/>
 	
 	</subset>
 
