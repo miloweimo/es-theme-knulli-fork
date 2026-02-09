@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <theme>
 
@@ -87,7 +87,7 @@
 			fontPath="./../fonts/${f.def}"
 			fontSize="0.036"
                         horizontalMargin="0.01"
-			scrollSound="./../parts/scroll.wav"
+			scrollSound="${v.scrollSoundPath}"
 			lines="${l.lines}"
 			scrollbarColor="${c.textHeader}"
 			scrollbarSize="${v.ScrollBar}"

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <theme>
 
@@ -50,6 +50,13 @@
 		<subset.gamecount>show game count</subset.gamecount>
 
 		<subset.batterybar>show batterybar</subset.batterybar>
+
+		<subset.keySound>key sound</subset.keySound>
+		<subset.keySound.default>default</subset.keySound.default>
+		<subset.keySound.minecraft>Minecraft</subset.keySound.minecraft>
+		<subset.keySound.mouse>mouse</subset.keySound.mouse>
+		<subset.keySound.switch>Switch</subset.keySound.switch>
+		<subset.keySound.typewriter>typewriter</subset.keySound.typewriter>
 
 		<subset.scrollSpeed>description scroll speed</subset.scrollSpeed>
 

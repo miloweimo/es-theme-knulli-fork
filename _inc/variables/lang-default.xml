@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <theme>
 
@@ -50,6 +50,13 @@
 		<subset.gamecount>显示游戏数量</subset.gamecount>
 
 		<subset.batterybar>显示电池栏</subset.batterybar>
+
+		<subset.keySound>按键音</subset.keySound>
+		<subset.keySound.default>默认</subset.keySound.default>
+		<subset.keySound.minecraft>我的世界</subset.keySound.minecraft>
+		<subset.keySound.mouse>鼠标</subset.keySound.mouse>
+		<subset.keySound.switch>任天堂</subset.keySound.switch>
+		<subset.keySound.typewriter>打字机</subset.keySound.typewriter>
 
 		<subset.scrollSpeed>描述滚动速度</subset.scrollSpeed>
 

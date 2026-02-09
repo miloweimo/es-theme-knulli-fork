@@ -95,6 +95,14 @@
 		<v.helpIconFolder ifSubset="helpIcons:xboxOne">xboxOne</v.helpIconFolder>
 		<v.helpIconFolder ifSubset="helpIcons:default"></v.helpIconFolder>
 
+		<v.scrollSoundPath>./_inc/parts/scroll.wav</v.scrollSoundPath>
+		<v.scrollSoundPath ifSubset="keySound:default">./_inc/parts/scroll.wav</v.scrollSoundPath>
+		<v.scrollSoundPath ifSubset="keySound:minecraft">./_inc/sounds/minecraft-click-cropped.wav</v.scrollSoundPath>
+		<v.scrollSoundPath ifSubset="keySound:mouse">./_inc/sounds/mouse-clicking.wav</v.scrollSoundPath>
+		<v.scrollSoundPath ifSubset="keySound:switch">./_inc/sounds/switch-sound.wav</v.scrollSoundPath>
+		<v.scrollSoundPath ifSubset="keySound:typewriter">./_inc/sounds/typewriter.wav</v.scrollSoundPath>
+		<v.scrollSoundPath ifSubset="keySound:disabled">./_inc/parts/silent.wav</v.scrollSoundPath>
+
 		<v.ScrollBar>0.0035</v.ScrollBar>
 		<v.ScrollBar2>0.0045</v.ScrollBar2>
 		
@@ -308,6 +316,21 @@
 
 		<include name="yes" displayName="${subset.options.yes}" />	
 		<include name="no" displayName="${subset.options.no}" />
+	
+	</subset>
+
+	<subset name="keySound"
+	
+		displayName="${subset.keySound}"
+		
+	>
+
+		<include name="default" displayName="${subset.keySound.default}" />
+		<include name="minecraft" displayName="${subset.keySound.minecraft}" />
+		<include name="mouse" displayName="${subset.keySound.mouse}" />
+		<include name="switch" displayName="${subset.keySound.switch}" />
+		<include name="typewriter" displayName="${subset.keySound.typewriter}" />
+		<include name="disabled" displayName="${subset.options.disabled}" />
 	
 	</subset>
 

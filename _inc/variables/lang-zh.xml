@@ -51,6 +51,13 @@
 
 		<subset.batterybar>显示电池栏</subset.batterybar>
 
+		<subset.keySound>按键音</subset.keySound>
+		<subset.keySound.default>默认</subset.keySound.default>
+		<subset.keySound.minecraft>我的世界</subset.keySound.minecraft>
+		<subset.keySound.mouse>鼠标</subset.keySound.mouse>
+		<subset.keySound.switch>任天堂</subset.keySound.switch>
+		<subset.keySound.typewriter>打字机</subset.keySound.typewriter>
+
 		<subset.scrollSpeed>描述滚动速度</subset.scrollSpeed>
 
 		<subset.themeVersionString>主题版本</subset.themeVersionString>
